@@ -212,29 +212,48 @@ i:hover {
   font-size: 3.0vw;
 }
 
+
+.form {
+    margin-top: 50px;
+}
+
+.formControl{
+    border: solid 1px;
+    display: inline-block;
+    width: 50%;
+    background-color: #252934;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
 .contactMeForm {
   /*  border: 2px dotted green;*/
     text-align: center;
   /*  border-color: #d6b417; */
-    margin-top: 120px;
-
+  /*  margin-top: 120px; */
+  margin-top: 5%;
 }
+
 label, input {
     margin: 0 auto;
     display: block;
 }
+
 label {
     margin-bottom: 20px;
     max-width: 1000px;
 }
+
 input {
     color: #efefef;
 }
+
 textarea{
   color: white;
   max-height: 500px;
   max-width: 1000px;
 }
+
 /*submit button*/
 #submit {
  margin-top: 60px;
@@ -248,9 +267,10 @@ textarea{
  font-size: 1rem;
  width: auto;
  cursor: pointer;
+ margin-right: 3%;
 }
 
-#submit:hover{
+#submit:hover {
  background: #61A0FF;
  border: 2px solid white;
  color: white;
