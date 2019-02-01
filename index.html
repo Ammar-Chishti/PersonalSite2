@@ -104,27 +104,29 @@
     </tr>
   </table>
   </div>
-  
+
   <div class="contact">
     <h1 class="contactMe">Contact Me</h1>
     <br>
     <h2 class="contactMeHeader">Have a question, want to collab?</h2>
 
     <div class="contactMeForm">
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your Name">
+        <form id="contactForm" method="post" action="contactForm.php">
 
+        <label>
+          <input name="name" type="text" id="name" class="formControl" placeholder="Your Name">
+        </label>
 
+        <label>
+          <input name="email" type="text" id="email" class="formControl" placeholder="Email">
+        </label>
 
+        <label>
+          <textarea name="message" id="messages" class="formControl" rows="4" placeholder="Message"></textarea>
+        </label>
+        <input type="submit" id="submit" value="Send Message">
 
-
-
-
-
-
-
-      </form>
+        </form>
 
 
 

@@ -212,6 +212,50 @@ i:hover {
   font-size: 3.0vw;
 }
 
+.contactMeForm {
+  /*  border: 2px dotted green;*/
+    text-align: center;
+  /*  border-color: #d6b417; */
+    margin-top: 120px;
+
+}
+label, input {
+    margin: 0 auto;
+    display: block;
+}
+label {
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+input {
+    color: #efefef;
+}
+textarea{
+  color: white;
+  max-height: 500px;
+  max-width: 1000px;
+}
+/*submit button*/
+#submit {
+ margin-top: 60px;
+ border: 2px solid black;
+ color: black;
+ padding: 20px;
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
+ overflow: hidden;
+ font-size: 1rem;
+ width: auto;
+ cursor: pointer;
+}
+
+#submit:hover{
+ background: #61A0FF;
+ border: 2px solid white;
+ color: white;
+}
+
 .footer {
   width: 100%;
   height: 30vh;
