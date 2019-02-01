@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body html {
+  margin: 0;
+}
+
+.homePage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/space.jpg");
+}
+
+.titleTxt {
+  text-align: left;
+  padding-left: 20%;
+  color: white;
+  font-family: "Mukta";
+  font-size: 2.5vw;
+  /* font-size: 46px; */
+}
+
+.navigation-menu {
+  font-family: "Major Mono Display";
+  color: white;
+  text-align: right;
+  margin-right: 20%;
+  font-size: 1.6vw;
+  /* font-size: 30px; */
+}
+
+.navigation-menu a:hover {
+  text-decoration: underline;
+  color: #66ABF7;
+}
+
+.introTxt {
+  color: white;
+  margin-top: 13%;
+  font-size: 1.6vw;
+  font-family: "Pt Sans";
+  text-align: center;
+}
+
+.icon-bar {
+  margin-top: 5%;
+  color: #66ABF7;
+  text-align: center;
+  font-size: 2.0vw;
+}
+
+.icon-bar a {
+  color: #66ABF7;
+}
+
+.header {
+  width: 100%;
+}
+
+.header th {
+  width: 50%;
+}
+
+.about {
+  width: 100%;
+  height: 150vh;
+  background-color: #F2F2F2;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+}
+
+.whoAmI {
+  padding-top: 9%;
+  padding-left: 10%;
+  font-family: "Open Sans";
+  color: #66ABF7;
+  font-size: 3.0vw;
+  text-align: left;
+}
+
+i {
+  margin-right: 52px;
+}
+
+.about i {
+  text-align: center;
+  margin-left: 60%;
+  background: #61A0FF;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  vertical-align: middle;
+  padding: 20px;
+  font-size: 75px;
+}
+
+i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.infopic {
+  margin-top: 5%;
+  width: 30%;
+  height: 60%;
+  /* border: 1px solid red; */
+  float: left;
+}
+
+.infopic img {
+  width: 62%;
+  height: auto;
+  margin-left: 25%;
+  display: inline-block;
+}
+
+.infoData {
+  width: 35%;
+  display: inline-table;
+  margin-top: 5%;
+  width: 69%;
+  float: right;
+  text-align: center;
+}
+
+.description {
+  font-family: "Rubik";
+  color: grey;
+  line-height: 2;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.LnT {
+  font-family: "Rubik";
+  color: grey;
+  line-height: 2;
+  font-weight: lighter;
+  font-size: 1.3vw;
+}
+
+.LnT:hover {
+  text-decoration: overline;
+  text-decoration-color: #d6b417;
+}
+
+.LnTList {}
+
+.LnTList i {
+  text-align: center;
+  display: inline-block;
+  margin: 1% 2%;
+  list-size: none;
+  /* font-size: 40px; */
+  font-size: 2.7vw;
+  transition: .5s;
+  background: #F2F2F2;
+  color: gray;
+  margin-left: 1px;
+}
+
+.LnTList i:hover{
+    color: #6CC1DA;
+}
+
+.connectWithMe {}
+
+.connectWithMe i {
+  text-align: center;
+  display: inline-block;
+  margin: 1% 2%;
+  list-size: none;
+  /* font-size: 40px; */
+  font-size: 2.5vw;
+  transition: .5s;
+  background: #F2F2F2;
+  color: black;
+  margin-left: 1px;
+}
+
+.connectWithMe i:hover{
+    color: #6CC1DA;
+}
+
+.contactMe {
+  padding-top: 9%;
+  padding-left: 10%;
+  font-family: "Open Sans";
+  color: #66ABF7;
+  font-size: 3.0vw;
+  text-align: left;
+}
+
+.contactMeHeader {
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 3.0vw;
+}
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  border: 1px solid red;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61a0ff+0,61a0ff+47,058ffe+50,3f7fdf+100 */
+  background: rgb(97,160,255); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(97,160,255,1) 0%, rgba(97,160,255,1) 47%, rgba(5,143,254,1) 50%, rgba(63,127,223,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(97,160,255,1) 0%,rgba(97,160,255,1) 47%,rgba(5,143,254,1) 50%,rgba(63,127,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(97,160,255,1) 0%,rgba(97,160,255,1) 47%,rgba(5,143,254,1) 50%,rgba(63,127,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61a0ff', endColorstr='#3f7fdf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footericons {
+  text-align: center;
+}
+
+.footericons li {
+  font-size: 2.0vw;
+  margin-top: 3%;
+  display: inline-block;
+}
+
+.footericons a {
+  color: black;
+}
+
+
+
+/*animation for bouncing arrow*/
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -3%/*-50px*/;
+    position: absolute;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: white;
+}
+
+.arrow:hover{
+    background: #61A0FF;
+    border: 2px solid #61A0FF;
+}
+
+/*typing animation for bioheading*/
+.introTxt h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 2.5s steps(60, end), blink-caret .65s step-end 4;
+  white-space: nowrap;
+  border-right: .15em solid transparent;
+  width:710;
+}
+
+ @keyframes typing {
+  from { width: 0 }
+   to { width: 710px; }
+   }
+
+@keyframes blink-caret {
+from, to { border-color: white }
+ 60% { border-color: transparent; }
+   }
+
+/* latin */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Major Mono Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Major Mono Display Regular'), local('MajorMonoDisplay-Regular'), url(https://fonts.gstatic.com/s/majormonodisplay/v2/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRh7DXeR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v7/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KExQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
