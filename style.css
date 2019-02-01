@@ -238,6 +238,16 @@ i:hover {
   color: black;
 }
 
+.footnote {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
 
 
 /*animation for bouncing arrow*/
