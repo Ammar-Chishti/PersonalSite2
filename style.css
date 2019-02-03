@@ -96,9 +96,12 @@ i {
   margin-right: 52px;
 }
 
+.fa-user {
+  margin-left: 60%;
+}
+
 .about i {
   text-align: center;
-  margin-left: 60%;
   background: #61A0FF;
   color: white;
   width: 80px;
